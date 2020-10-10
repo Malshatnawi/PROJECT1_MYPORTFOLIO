@@ -1,0 +1,499 @@
+#skills_page {
+    background-color: black;
+}
+
+
+#skills_page .logo_text {
+    color: white;
+
+}
+
+
+
+#logo {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo img {
+    margin-top: 3em;
+    margin-left: 3em;
+    width: 4.5em;
+    height: 4.5em;
+}
+
+#logo .logo_text {
+    margin-top: 3.4em;
+    margin-left: 1.5em;
+}
+
+
+#logo h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#logo h5 {
+    font-family: monospace;
+    font-size: 0.85em;
+
+}
+
+#full_logo {
+    margin-left: 0px;
+    width: 10em;
+    height: 10em;
+    margin-right: 50em;
+}
+
+#menu_button {
+    height: 3em;
+    margin-left: 73em;
+    margin-top: 3.75em;
+}
+
+#menu_button .dropdown-item{
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: left;
+}
+
+#menu_button .dropdown-item:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#menu_button span{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+
+
+#middlesection{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#main_text {
+    margin-left: 3%;
+    margin-top: 12.5%;
+    width: 49%;
+}
+
+#main_text h1 {
+    font-weight: bold;
+    font-size: 4em;
+    width: 70%;
+}
+
+
+#main_text p {
+    font-size: 1.25em;
+    color: rgb(128, 123, 123);
+    width: 50%;
+}
+
+#main_text h6 {
+    color: silver;
+    font-family: monospace;
+    font-size: 1.35em;
+}
+
+#main_text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+#mypic {
+    width: 10%;
+    margin-left: 0%;
+}
+
+#mypic img{
+}
+
+#secondrow{
+    background-color: white;
+}
+
+#about_text p{
+    font-size: 1.25em;
+    color: black;   
+    width: 50%;
+}
+
+#about_text h6{
+    color: white;
+    font-family: monospace;
+    font-size: 1.35em;
+
+}
+
+
+
+#about_text h1 {
+    font-weight: bold;
+    font-size: 4em;
+    width: 70%;
+    color: white;
+    box-shadow: 0 0 10em #2187e7b3;
+}
+
+#about_section {
+    font-weight: bold;
+    font-size: 4em;
+    width: 70%;
+    margin-top:4em ;
+    text-align: center;
+    background-color: white;
+    color:black;
+    font-family: monospace;
+    width: 6em;
+
+}
+
+#my_projects {
+    font-weight: bold;
+    font-size: 4em;
+    width: 70%;
+    margin-top:4em ;
+    text-align: center;
+    background-color: white;
+    color:black;
+    font-family: monospace;
+    width: 6em;
+
+}
+
+
+
+#secondrow{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: monospace;
+    box-shadow: 5px 5px 5px rgb(228, 223, 223);
+    border-radius: 20px;
+    height: 40em;
+    width: 25em;
+    margin-left: 2em;
+    margin-top: 5.5em;
+    border: 1em solid;
+    border: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+   
+
+}
+
+
+.image {
+    grid-area: image;
+}
+
+.image img{
+    width: 25em;
+    border-radius: 20px;
+}
+
+
+.texts {
+    grid-area: texts;
+    display: flex;
+    flex-direction: column;
+    width: 22em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 3em;
+
+}
+
+
+
+.texts h2 {
+    color: white;
+    width: 24em;
+    
+    ;}
+
+.texts p {
+    color: white;
+
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 15px rgb(228, 223, 223);
+}
+
+
+
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: monospace;
+    box-shadow: 5px 5px 5px rgb(228, 223, 223);
+    border-radius: 20px;
+    height: 25em;
+    width: 25em;
+    margin-top: 5.5em;
+    margin-left: 2.5em;
+    border: 1em solid;
+    border: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-right: 2em;
+    
+   
+
+}
+
+
+.image1 {
+    grid-area: image;
+}
+
+.image1 img{
+    width: 25em;
+    border-radius: 20px;
+}
+
+.card1:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 15px rgb(228, 223, 223);
+}
+
+
+#skillbars{
+    margin-left: 10%;
+    margin-top: 4%;
+    display: block;
+    width: 100%;
+
+}
+
+.container5 {
+    background-color: #ddd; 
+    margin-bottom: 2%;
+    border-radius: 5em;
+  }
+  
+
+  #skillbars h1 {
+      color: white;
+      font-family: monospace;
+  }
+
+
+  #skillbars h2 {
+    color: white;
+    font-family: monospace;
+    margin-bottom: 1.5%;
+}
+
+#allbars{
+    margin-top: 4%;
+}
+  .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+    font-weight: bold;
+  }
+  
+  .html {width: 90%; background-color: #2b47c5; box-shadow: 0 0 10em #2187e7b3; border-radius: 5em;} 
+  .css {width: 80%; background-color: #2b47c5; box-shadow: 0 0 10em #2187e7b3; border-radius: 5em;} 
+  .bs {width: 65%; background-color: #2b47c5; box-shadow: 0 0 10em #2187e7b3; border-radius: 5em;} 
+
+
+  #myform input,textarea{
+      display: block;
+      width: 70em;
+      margin-top: 0.5em;
+
+  }
+
+
+  #myform [type="submit"] {
+      width: 10em;
+      margin-top: 1em;
+  }
+
+  legend {
+    color: white;
+    font-family: monospace;
+    width: 10em;
+    font-weight: bold;
+
+  }
+
+ fieldset{
+     border: 0.5em solid white;
+     width: 75em;
+     display: block;
+     padding-top: 1em;
+     padding-bottom: 1.5em;
+     padding-left: 1.75em;
+     padding-right: 1.75em;
+     margin-top: 10%;
+     
+ }
+
+
+ footer{
+     height: 10%;
+     background-color: black;
+     color: white;
+     margin-top: 7%;
+     padding: 2em;
+     margin-bottom: 0em;
+
+ }
+
+
+ footer h3 {
+     font-weight: bold;
+     font-size: 2.5em;
+
+ }
+
+
+ footer p {
+     font-weight: bold;
+     font-size: 1.1em;
+     margin-top: 1em;
+ }
+
+
+ footer [class*="fa"]{
+     font-size: 2em;
+ }
+
+ footer [class*="facebook"]{
+    font-size: 1.5em;
+}
+
+ 
+
+ footer .social_media {
+     display: grid;
+     height: 1em;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas: 
+     "github gmail facebook"
+     "linkedin whatsapp slack";
+     column-gap: 3em;
+     row-gap: 2em;
+     margin-top: 0.95em;
+     margin-bottom: 4em;
+
+     
+ }
+
+ .footer2{
+    height: 10%;
+    background-color: white;
+    color: black;
+    margin-top: 7%;
+    padding: 2em;
+    margin-bottom: 0em;
+
+}
+
+
+.footer2 h3 {
+    font-weight: bold;
+    font-size: 2.5em;
+
+}
+
+
+.footer2 p {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 1em;
+}
+
+
+.footer2 [class*="fa"]{
+    font-size: 2em;
+}
+
+.footer2 [class*="facebook"]{
+   font-size: 1.5em;
+}
+
+
+
+.footer2 .social_media {
+    display: grid;
+    height: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "github gmail facebook"
+    "linkedin whatsapp slack";
+    column-gap: 3em;
+    row-gap: 2em;
+    margin-top: 0.95em;
+    margin-bottom: 4em;
+
+    
+}
+
+
+ .github {
+     grid-area: github;
+ }
+
+ .gmail {
+     grid-area: gmail;
+ }
+
+ .facebook {
+     grid-area: facebook;
+ }
+
+ .linkedin {
+     grid-area:linkedin ;
+ }
+
+ .whatsapp {
+     grid-area: whatsapp;
+ }
+
+ .slack{
+     grid-area: slack;
+ }
+
+
+ .copy_rights {
+     width: 30em; 
+    margin-top: 8em;
+}
+
